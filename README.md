@@ -36,3 +36,14 @@ mutation{
     id
   }
 }
+---
+### edit
+
+mutation{
+ editCustomer(id: "3", age: 99)
+  {
+    id,
+    name,
+    age
+  }
+}
