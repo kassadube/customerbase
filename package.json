@@ -4,7 +4,7 @@
   "description": "GraphQL server Traversty ",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run dev:server",
     "dev:server": "nodemon server.js"
   },
   "author": "",
