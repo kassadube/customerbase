@@ -16,3 +16,23 @@ query
   id,name,email
   }
 }
+
+---
+
+mutation{
+  addCustomer(name: "treest", email: "bib@gmail.com", age: 33){
+    id,
+    name,
+    email,
+    age
+  }
+}
+
+----
+## delete
+
+mutation{
+  deleteCustomer(id: "oqvoqQu") {
+    id
+  }
+}
